@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Renderer>
+  <Database>
+    <PriceConnectionString value="Data Source=192.168.10.41;Initial Catalog=NEWS_GEN;Persist Security Info=True;User ID=8668;Password=09112064568" ></PriceConnectionString>
+  </Database>
+  <Layers>
+    <Layer Title="" LayerName="Dollar" DbId="18"></Layer>
+    <Layer Title="" LayerName="Euro" DbId="23"></Layer>
+    <Layer Title="" LayerName="Derham" DbId="21"></Layer>
+    <Layer Title="" LayerName="Yen" DbId="20"></Layer>
+    <Layer Title="" LayerName="Lir" DbId="218"></Layer>
+    <Layer Title="" LayerName="CoinFull" DbId="25"></Layer>
+    <Layer Title="" LayerName="CoinHalf" DbId="26"></Layer>
+    <Layer Title="" LayerName="CoinQuarter" DbId="27"></Layer>
+    <Layer Title="" LayerName="Coin1G" DbId="28"></Layer>
+    <Layer Title="" LayerName="Gold18" DbId="29"></Layer>
+  </Layers>
+  <Schedules>
+    <Schedule Time="09:30"></Schedule>
+    <Schedule Time="16:05"></Schedule>
+  </Schedules>
+</Renderer>
