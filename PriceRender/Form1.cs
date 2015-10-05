@@ -200,7 +200,7 @@ namespace PriceRender
             string DirPathDest = ConfigurationSettings.AppSettings["OutputPath"].ToString().Trim() + "\\" + Date.Replace("\\", "-").Replace("/", "-") + "\\" + ConfigurationSettings.AppSettings["OutputFolderName"].ToString().Trim();
             if (!Directory.Exists(DirPathDest))
                 Directory.CreateDirectory(DirPathDest);
-            string OutFile = ConfigurationSettings.AppSettings["OutputFilePrefix"].ToString().Trim() + "_" + DateTime.Now.Hour + "_" + DateTime.Now.Minute + "_" + DateTime.Now.Second + ".avi";
+            string OutFile = ConfigurationSettings.AppSettings["OutputFilePrefix"].ToString().Trim() + "_" + DateTime.Now.Hour + "_" + DateTime.Now.Minute + "_" + DateTime.Now.Second + ".mp4";
             proc.StartInfo.Arguments = " -project " + "\"" + _AeProject + "\"" + "   -comp   \"" + Comp + "\" -output " + "\"" + DirPathDest + "\\" + OutFile + "\"";
             proc.StartInfo.RedirectStandardError = true;
             proc.StartInfo.UseShellExecute = false;
